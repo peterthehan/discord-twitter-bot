@@ -14,7 +14,7 @@ A Discord bot that forwards Tweets into your Discord server.
 
 2. Download this widget and add it into the [src/widgets](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder.
 
-> npm i -s twitter-lite@^^0.14.0 to install this widget's dependencies.
+> npm i -s twitter-lite@^0.14.0 to install this widget's dependencies.
 
 3. Open [config.json](https://github.com/peterthehan/discord-twitter-bot/blob/master/config.json) to configure your own settings:
 
