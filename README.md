@@ -45,9 +45,10 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
          "count": 1
        }
      }
-     // ...Add as many rules as you want.
    ]
    ```
+
+   Add as many rules as you want.
 
    - `channelId` is the text channel you want Tweets to be forwarded to.
    - `delay` (in milliseconds) is the interval the bot will run the Twitter search query to check for new results. `delay` defaults to 15 minutes if not provided.
