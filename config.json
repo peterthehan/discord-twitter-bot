@@ -1,70 +1,62 @@
-{
-  "twitterKeys": {
-    "consumer_key": "TWITTER_CONSUMER_KEY_PLACEHOLDER",
-    "consumer_secret": "TWITTER_CONSUMER_SECRET_PLACEHOLDER",
-    "access_token_key": "TWITTER_ACCESS_TOKEN_KEY_PLACEHOLDER",
-    "access_token_secret": "TWITTER_ACCESS_TOKEN_SECRET_PLACEHOLDER"
-  },
-  "rules": [
-    {
-      "channelId": "649020657522180128",
-      "delay": 3600000,
-      "randomDelay": 0,
-      "parameters": {
-        "q": "from:@NoContextWeeb exclude:replies exclude:retweets",
-        "result_type": "recent",
-        "count": 1
-      }
-    },
-    {
-      "channelId": "264627745177206786",
-      "delay": 600000,
-      "randomDelay": 300000,
-      "parameters": {
-        "q": "from:@mikumiku_ebooks OR from:@Veggiefact OR from:@sattou0 OR from:@ar031995 OR from:@RandoTheReal OR from:@jokanhiyou OR from:@scienceshitpost OR from:@NoContextWeeb OR from:@nocontextkirby OR from:@amongustruggles OR from:@OoCPokemon OR from:@OutofVTubers exclude:replies exclude:retweets",
-        "result_type": "recent",
-        "count": 5
-      }
-    },
-    {
-      "channelId": "755818716641624104",
-      "delay": 600000,
-      "randomDelay": 300000,
-      "parameters": {
-        "q": "from:@ArknightsEN OR from:@GirlsFrontlineE exclude:replies exclude:retweets",
-        "result_type": "recent",
-        "count": 5
-      }
-    },
-    {
-      "channelId": "266041562033553408",
-      "delay": 600000,
-      "randomDelay": 300000,
-      "parameters": {
-        "q": "from:@CrusadersQuest exclude:replies exclude:retweets",
-        "result_type": "recent",
-        "count": 3
-      }
-    },
-    {
-      "channelId": "755136985856737321",
-      "delay": 600000,
-      "randomDelay": 300000,
-      "parameters": {
-        "q": "from:@PlayWarframe OR from:@DestinyTheGame OR from:@CallofDuty OR from:@priconne_eng OR from:@DragaliaLostApp OR from:@fgoproject OR from:@world_flipper OR from:@sega_pso2 exclude:replies exclude:retweets",
-        "result_type": "recent",
-        "count": 5
-      }
-    },
-    {
-      "channelId": "747319121582096434",
-      "delay": 600000,
-      "randomDelay": 300000,
-      "parameters": {
-        "q": "from:@PeterTheHan exclude:replies exclude:retweets",
-        "result_type": "recent",
-        "count": 1
-      }
+[
+  {
+    "channelId": "649020657522180128",
+    "delay": 3600000,
+    "randomDelay": 300000,
+    "parameters": {
+      "q": "from:@NoContextWeeb exclude:replies exclude:retweets",
+      "result_type": "recent",
+      "count": 1
     }
-  ]
-}
+  },
+  {
+    "channelId": "418990932399226882",
+    "delay": 600000,
+    "randomDelay": 300000,
+    "parameters": {
+      "q": "from:@PeterTheHan OR from:@ProgressBar202_ OR from:@NoContextWeeb OR from:@PlayWarframe exclude:replies exclude:retweets",
+      "result_type": "recent",
+      "count": 5
+    }
+  },
+  {
+    "channelId": "264627745177206786",
+    "delay": 600000,
+    "randomDelay": 300000,
+    "parameters": {
+      "q": "from:@ShitUserStory OR from:@xkcdComic OR from:@mikumiku_ebooks OR from:@Veggiefact OR from:@sattou0 OR from:@ar031995 OR from:@jokanhiyou OR from:@scienceshitpost OR from:@nocontextkirby OR from:@OoCPokemon OR from:@TheOnion OR from:@AnimeMaru exclude:replies exclude:retweets",
+      "result_type": "recent",
+      "count": 15
+    }
+  },
+  {
+    "channelId": "755818716641624104",
+    "delay": 300000,
+    "randomDelay": 300000,
+    "parameters": {
+      "q": "from:@ArknightsEN exclude:replies exclude:retweets",
+      "result_type": "recent",
+      "count": 5
+    }
+  },
+  {
+    "channelId": "266041562033553408",
+    "delay": 600000,
+    "randomDelay": 300000,
+    "parameters": {
+      "q": "from:@CrusadersQuest exclude:replies exclude:retweets",
+      "result_type": "recent",
+      "count": 3
+    }
+  },
+  {
+    "channelId": "765411104372817990",
+    "delay": 600000,
+    "randomDelay": 300000,
+    "parameters": {
+      "q": "from:@GenshinImpact OR from:@Zeniiet OR from:@enocbwaap exclude:replies exclude:retweets",
+      "result_type": "recent",
+      "count": 5
+    }
+  }
+]
