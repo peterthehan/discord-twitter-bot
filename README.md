@@ -33,20 +33,20 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
 
 4. Open [config.json](https://github.com/peterthehan/discord-twitter-bot/blob/master/config.json) to configure your own settings:
 
-   ```js
+   ```json
    [
      {
-       channelId: "CHANNEL_ID",
-       delay: 3600000,
-       randomDelay: 0,
-       parameters: {
-         q: "from:@NoContextWeeb exclude:replies exclude:retweets",
-         result_type: "recent",
-         count: 1,
-       },
-     },
+       "channelId": "CHANNEL_ID",
+       "delay": 3600000,
+       "randomDelay": 0,
+       "parameters": {
+         "q": "from:@NoContextWeeb exclude:replies exclude:retweets",
+         "result_type": "recent",
+         "count": 1
+       }
+     }
      // ...Add as many rules as you want.
-   ];
+   ]
    ```
 
    - `channelId` is the text channel you want Tweets to be forwarded to.
