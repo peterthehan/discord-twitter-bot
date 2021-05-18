@@ -27,7 +27,7 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
    TWITTER_ACCESS_TOKEN_SECRET=PLACEHOLDER
    ```
 
-3. Download this widget and add it into the [src/widgets](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder.
+3. Download this widget and move the `src-discord-twitter-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
 
    > npm i -s twitter-lite@^0.14.0 to install this widget's dependencies.
 
@@ -36,9 +36,9 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
    ```json
    [
      {
-       "channelId": "CHANNEL_ID",
+       "channelId": "649020657522180128",
        "delay": 3600000,
-       "randomDelay": 0,
+       "randomDelay": 300000,
        "parameters": {
          "q": "from:@NoContextWeeb exclude:replies exclude:retweets",
          "result_type": "recent",
@@ -48,9 +48,9 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
    ]
    ```
 
-   Add as many rules as you want.
+   Add as many rules as you want to configure for other channels/servers.
 
-   - `channelId` is the text channel you want Tweets to be forwarded to.
+   - `channelId` is the text channel you want tweets to be forwarded to.
    - `delay` (in milliseconds) is the interval the bot will run the Twitter search query to check for new results. `delay` defaults to 15 minutes if not provided.
      - Take note of search's [rate limit](https://developer.twitter.com/en/docs/twitter-api/v1/rate-limits) of `450 requests per 15 minutes` when configuring your rules.
    - `randomDelay` (in milliseconds) is the random interval added to the `delay`. `randomDelay` defaults to 0 minutes if not provided.
