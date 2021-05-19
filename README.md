@@ -31,7 +31,7 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
 
    > npm i -s twitter-lite@^0.14.0 to install this widget's dependencies.
 
-4. Open [config.json](https://github.com/peterthehan/discord-twitter-bot/blob/master/config.json) to configure your own settings:
+4. Open [config.json](https://github.com/peterthehan/discord-twitter-bot/blob/master/src-discord-twitter-bot/config.json) to configure your own settings:
 
    ```json
    [
