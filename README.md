@@ -39,6 +39,8 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
        "channelId": "649020657522180128",
        "delay": 3600000,
        "randomDelay": 300000,
+       "embed": true,
+       "spoiler": false,
        "parameters": {
          "q": "from:@NoContextWeeb exclude:replies exclude:retweets",
          "result_type": "recent",
@@ -54,6 +56,8 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
    - `delay` (in milliseconds) is the interval the bot will run the Twitter search query to check for new results. `delay` defaults to 15 minutes if not provided.
      - Take note of search's [rate limit](https://developer.twitter.com/en/docs/twitter-api/v1/rate-limits) of `450 requests per 15 minutes` when configuring your rules.
    - `randomDelay` (in milliseconds) is the random interval added to the `delay`. `randomDelay` defaults to 0 minutes if not provided.
+   - `embed` is a boolean that determines whether the tweet's embed is sent (`true`) or not (`false`).
+   - `spoiler` is a boolean that determines whether the tweet is spoiler tagged (`true`) or not (`false`).
    - `parameters` are provided to the Twitter search endpoint. Reference can be found here: https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/get-search-tweets
      - The `q` (query) parameter allows for powerful search operators. Reference can be found here: https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/guides/standard-operators
 

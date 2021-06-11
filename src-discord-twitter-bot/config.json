@@ -3,6 +3,8 @@
     "channelId": "649020657522180128",
     "delay": 3600000,
     "randomDelay": 300000,
+    "embed": true,
+    "spoiler": false,
     "parameters": {
       "q": "from:@NoContextWeeb exclude:replies exclude:retweets",
       "result_type": "recent",
@@ -13,6 +15,8 @@
     "channelId": "418990932399226882",
     "delay": 600000,
     "randomDelay": 300000,
+    "embed": true,
+    "spoiler": false,
     "parameters": {
       "q": "from:@PeterTheHan OR from:@ProgressBar202_ OR from:@NoContextWeeb OR from:@PlayWarframe exclude:replies exclude:retweets",
       "result_type": "recent",
@@ -23,16 +27,32 @@
     "channelId": "264627745177206786",
     "delay": 600000,
     "randomDelay": 300000,
+    "embed": true,
+    "spoiler": false,
     "parameters": {
-      "q": "from:@ShitUserStory OR from:@xkcdComic OR from:@mikumiku_ebooks OR from:@Veggiefact OR from:@sattou0 OR from:@ar031995 OR from:@jokanhiyou OR from:@scienceshitpost OR from:@nocontextkirby OR from:@OoCPokemon OR from:@TheOnion OR from:@AnimeMaru exclude:replies exclude:retweets",
+      "q": "from:@lowpolyanimals OR from:@nocontxtrockman OR from:@ShitUserStory OR from:@xkcdComic OR from:@mikumiku_ebooks OR from:@Veggiefact OR from:@sattou0 OR from:@ar031995 OR from:@jokanhiyou OR from:@scienceshitpost OR from:@nocontextkirby OR from:@OoCPokemon OR from:@TheOnion OR from:@AnimeMaru exclude:replies exclude:retweets",
       "result_type": "recent",
       "count": 15
+    }
+  },
+  {
+    "channelId": "842667470900822028",
+    "delay": 600000,
+    "randomDelay": 300000,
+    "embed": true,
+    "spoiler": false,
+    "parameters": {
+      "q": "from:@AlchemyStarsEN OR from:@AlchemyStarsUS exclude:replies exclude:retweets",
+      "result_type": "recent",
+      "count": 5
     }
   },
   {
     "channelId": "755818716641624104",
     "delay": 300000,
     "randomDelay": 300000,
+    "embed": true,
+    "spoiler": false,
     "parameters": {
       "q": "from:@ArknightsEN exclude:replies exclude:retweets",
       "result_type": "recent",
@@ -43,6 +63,8 @@
     "channelId": "266041562033553408",
     "delay": 600000,
     "randomDelay": 300000,
+    "embed": true,
+    "spoiler": false,
     "parameters": {
       "q": "from:@CrusadersQuest exclude:replies exclude:retweets",
       "result_type": "recent",
@@ -53,6 +75,8 @@
     "channelId": "765411104372817990",
     "delay": 600000,
     "randomDelay": 300000,
+    "embed": true,
+    "spoiler": false,
     "parameters": {
       "q": "from:@GenshinImpact OR from:@Zeniiet OR from:@enocbwaap exclude:replies exclude:retweets",
       "result_type": "recent",

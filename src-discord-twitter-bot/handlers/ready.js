@@ -17,7 +17,7 @@ module.exports = async (client) => {
       await bot.loadWebhook(client);
       setInterval(async () => {
         const tweets = await bot.fetchNewTweets();
-        bot.sendTweets(tweets);
+        tweets.forEach((tweet) => bot.sendTweet(tweet));
       }, bot.getDelay());
     });
 };

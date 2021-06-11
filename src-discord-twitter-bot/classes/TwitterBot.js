@@ -71,10 +71,16 @@ module.exports = class TwitterBot {
     return tweets;
   }
 
-  sendTweets(tweets) {
-    tweets.forEach((tweet) => {
-      this.webhook.send(tweet);
-      console.log(`Sending: ${tweet}`);
-    });
+  sendTweet(tweet) {
+    if (!this.rule.embed) {
+      tweet = `<${tweet}>`;
+    }
+
+    if (this.rule.spoiler) {
+      tweet = `||${tweet} ||`;
+    }
+
+    this.webhook.send(tweet);
+    console.log(`Sending: ${tweet}`);
   }
 };
