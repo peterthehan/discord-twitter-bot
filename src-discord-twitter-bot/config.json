@@ -30,27 +30,39 @@
     "embed": true,
     "spoiler": false,
     "parameters": {
-      "q": "from:@lowpolyanimals OR from:@nocontxtrockman OR from:@ShitUserStory OR from:@xkcdComic OR from:@mikumiku_ebooks OR from:@Veggiefact OR from:@sattou0 OR from:@ar031995 OR from:@jokanhiyou OR from:@scienceshitpost OR from:@nocontextkirby OR from:@OoCPokemon OR from:@TheOnion OR from:@AnimeMaru exclude:replies exclude:retweets",
+      "q": "from:@lowpolyanimals OR from:@nocontxtrockman OR from:@ShitUserStory OR from:@xkcdComic OR from:@mikumiku_ebooks OR from:@Veggiefact OR from:@scienceshitpost OR from:@nocontextkirby OR from:@OoCPokemon OR from:@TheOnion OR from:@AnimeMaru OR from:@HardDriveMag exclude:replies exclude:retweets",
       "result_type": "recent",
-      "count": 15
+      "count": 10
     }
   },
   {
-    "channelId": "842667470900822028",
-    "delay": 600000,
+    "channelId": "419681885166239744",
+    "delay": 3600000,
     "randomDelay": 300000,
     "embed": true,
     "spoiler": false,
     "parameters": {
-      "q": "from:@AlchemyStarsEN OR from:@AlchemyStarsUS exclude:replies exclude:retweets",
+      "q": "from:@sattou0 OR from:@ar031995 OR from:@jokanhiyou OR from:@ToppiestDylan OR from:@Kekeflipnote OR from:@140ABGM OR from:@140VGM OR from:@maplebgm exclude:replies exclude:retweets filter:media",
       "result_type": "recent",
-      "count": 5
+      "count": 10
+    }
+  },
+  {
+    "channelId": "419681885166239744",
+    "delay": 3600000,
+    "randomDelay": 300000,
+    "embed": true,
+    "spoiler": true,
+    "parameters": {
+      "q": "from:@huhuhu13422 exclude:replies exclude:retweets filter:media",
+      "result_type": "recent",
+      "count": 3
     }
   },
   {
     "channelId": "755818716641624104",
     "delay": 300000,
-    "randomDelay": 300000,
+    "randomDelay": 0,
     "embed": true,
     "spoiler": false,
     "parameters": {
@@ -78,9 +90,9 @@
     "embed": true,
     "spoiler": false,
     "parameters": {
-      "q": "from:@GenshinImpact OR from:@Zeniiet OR from:@enocbwaap exclude:replies exclude:retweets",
+      "q": "from:@GenshinImpact OR from:@Zeniiet OR from:@enocbwaap OR from:@AlchemyStarsEN OR from:@PGR_GLOBAL OR from:@GuardianTalesEN OR from:@Worldflipper_kg exclude:replies exclude:retweets",
       "result_type": "recent",
-      "count": 5
+      "count": 10
     }
   }
 ]

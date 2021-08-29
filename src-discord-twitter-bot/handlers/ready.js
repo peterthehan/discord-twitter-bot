@@ -1,9 +1,9 @@
-const config = require("../config");
 const Twitter = require("twitter-lite");
+const config = require("../config.json");
 const TwitterBot = require("../classes/TwitterBot");
 
 module.exports = async (client) => {
-  console.log("twitter: ready");
+  console.log(__dirname.split("\\").slice(-2)[0]);
 
   const twitterClient = new Twitter({
     consumer_key: process.env.TWITTER_CONSUMER_KEY,

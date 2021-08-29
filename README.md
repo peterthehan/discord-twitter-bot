@@ -1,10 +1,10 @@
 # Discord Twitter Bot
 
-[![Discord](https://discordapp.com/api/guilds/258167954913361930/embed.png)](https://discord.gg/WjEFnzC) [![Twitter Follow](https://img.shields.io/twitter/follow/peterthehan.svg?style=social)](https://twitter.com/peterthehan)
+[![Discord](https://discord.com/api/guilds/258167954913361930/embed.png)](https://discord.gg/WjEFnzC) [![Twitter Follow](https://img.shields.io/twitter/follow/peterthehan.svg?style=social)](https://twitter.com/peterthehan)
 
 A Discord bot that forwards Tweets into your Discord server.
 
-> Take note that this bot uses the search API and not the streaming API. This means that the results are not exhaustive nor are they instantaneous. However, the trade-off here is that the nature of searching allows for the use of powerful search operators to filter the results to your needs.
+Take note that this bot uses the search API and not the streaming API. This means that the results are not exhaustive nor are they instantaneous. The trade-off is the ability to use powerful search operators to filter the results to your needs.
 
 ## Twitter Developer Account Setup
 
@@ -27,11 +27,11 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
    TWITTER_ACCESS_TOKEN_SECRET=PLACEHOLDER
    ```
 
-3. Download this widget and move the `src-discord-twitter-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
+3. Download this bot and move the `src-discord-twitter-bot` folder into the [/src/bots](https://github.com/peterthehan/create-discord-bot/tree/master/src/bots) folder from step 1.
 
-   > npm i -s twitter-lite@^0.14.0 to install this widget's dependencies.
+   > Run `npm i -s twitter-lite@^0.14.0` to install this bot's dependencies.
 
-4. Open [config.json](https://github.com/peterthehan/discord-twitter-bot/blob/master/src-discord-twitter-bot/config.json) to configure your own settings:
+4. Open [config.json](./src-discord-twitter-bot/config.json) to configure your own settings:
 
    ```json
    [
@@ -66,5 +66,5 @@ Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-f
 Visit for more help or information!
 
 <a href="https://discord.gg/WjEFnzC">
-  <img src="https://discordapp.com/api/guilds/258167954913361930/embed.png?style=banner2" title="Discord Server"/>
+  <img src="https://discord.com/api/guilds/258167954913361930/embed.png?style=banner2" title="Discord Server"/>
 </a>
